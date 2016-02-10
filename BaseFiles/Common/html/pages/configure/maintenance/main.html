@@ -32,7 +32,7 @@
                     <label data-locale-id="configure_system_packagemanager">Package Manager</label><br />
                 </div>
                 <div class="ui-block-b" style="float:right;width:150px">
-                    <a href="#systemsettings_browserepo" data-rel="popup" data-transition="pop" class="ui-btn ui-corner-all" data-locale-id="configure_system_installpackage">
+                    <a data-ui-field="package_install" href="#systemsettings_browserepo" data-rel="popup" data-transition="pop" class="ui-btn ui-corner-all" data-locale-id="configure_system_installpackage">
                         Install Package
                     </a>
                 </div>
@@ -140,6 +140,7 @@
                             <input id="restore_configuration_uploadfile" type="file" title="Restore from backup file." name="file" />
                         </form>
                         <iframe id="restore_configuration_uploadframe" name="uploadframe" src="blank.html" style="display:none;width:0;height:0;border:0"></iframe>
+                        <p>If you are restoring a backup file made with HG prior to v1.1-beta.513 <a href="README.RestoreP513.md" target="_blank">READ THIS</a>.
                     </div>
                 </div>
                 <div class="ui-block-b" style="float:right;width:150px">
